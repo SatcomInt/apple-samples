@@ -183,11 +183,9 @@ class ExampleFormViewController: FormViewController {
                 return ""
             }
         }
-        
         section5.rows.append(row)
         
         let section6 = FormSectionDescriptor(headerTitle: "Stepper & Slider", footerTitle: nil)
-        
         row = FormRowDescriptor(tag: Static.stepper, type: .stepper, title: "Step count")
         row.configuration.stepper.maximumValue = 200.0
         row.configuration.stepper.minimumValue = 20.0
@@ -220,11 +218,9 @@ class ExampleFormViewController: FormViewController {
         row.configuration.cell.appearance = ["textField.textColor": UIColor.blue,
                                              "textField.enabled": false as AnyObject,
                                              "textField.text": "This is a non-text view" as AnyObject]
-        
         section7.rows.append(row)
         
         let section8 = FormSectionDescriptor(headerTitle: nil, footerTitle: nil)
-        
         row = FormRowDescriptor(tag: Static.button, type: .button, title: "Dismiss")
         row.configuration.button.didSelectClosure = { _ in
             self.view.endEditing(true)
@@ -232,7 +228,6 @@ class ExampleFormViewController: FormViewController {
         section8.rows.append(row)
 
         form.sections = [section1, section2, section3, section4, section5, section6, section7, section8]
-        
         self.form = form
     }
 }

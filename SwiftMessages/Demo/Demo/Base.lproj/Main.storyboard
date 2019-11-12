@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14854.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="JQZ-C5-7mw">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="JQZ-C5-7mw">
+    <device id="ipad11_0rounded" orientation="landscape" layout="splitview1_3" appearance="dark"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14806.4"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -29,7 +28,7 @@
             <objects>
                 <tableViewController id="vur-BZ-g1e" customClass="ViewController" customModule="Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="j4a-wU-637">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
@@ -737,7 +736,7 @@
                     <navigationItem key="navigationItem" title="Explore" id="rMg-O3-NIm">
                         <barButtonItem key="rightBarButtonItem" id="dQj-XX-UVC">
                             <view key="customView" contentMode="scaleToFill" id="put-HD-gTP">
-                                <rect key="frame" x="234" y="0.0" width="125" height="44"/>
+                                <rect key="frame" x="234" y="3" width="125" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PpV-jZ-Yo3">
@@ -823,14 +822,14 @@
                         <viewControllerLayoutGuide type="bottom" id="LAn-az-eMU"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="YlT-hO-kIK">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="mGe-El-haJ">
-                                <rect key="frame" x="46" y="84" width="283" height="494"/>
+                                <rect key="frame" x="46" y="90" width="283" height="639"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DrN-Ei-Pg7">
-                                        <rect key="frame" x="0.0" y="0.0" width="283" height="62"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="283" height="82.5"/>
                                         <color key="backgroundColor" red="0.16470588235294117" green="0.6588235294117647" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <state key="normal" title="Top Message"/>
@@ -844,7 +843,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GeC-SP-rSC">
-                                        <rect key="frame" x="0.0" y="72" width="283" height="62"/>
+                                        <rect key="frame" x="0.0" y="92.5" width="283" height="83"/>
                                         <color key="backgroundColor" red="0.1647058824" green="0.6588235294" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <state key="normal" title="Bottom Message"/>
@@ -858,7 +857,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DGn-eY-EEX">
-                                        <rect key="frame" x="0.0" y="144" width="283" height="62"/>
+                                        <rect key="frame" x="0.0" y="185.5" width="283" height="82.5"/>
                                         <color key="backgroundColor" red="0.26627604170000002" green="0.76907009550000005" blue="0.32259114579999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <state key="normal" title="Top Card"/>
@@ -872,7 +871,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQs-MK-vK3">
-                                        <rect key="frame" x="0.0" y="216" width="283" height="62"/>
+                                        <rect key="frame" x="0.0" y="278" width="283" height="83"/>
                                         <color key="backgroundColor" red="0.26627604170000002" green="0.76907009550000005" blue="0.32259114579999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <state key="normal" title="Bottom Card"/>
@@ -886,7 +885,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kux-aE-Bdv" userLabel="Top Tab">
-                                        <rect key="frame" x="0.0" y="288" width="283" height="62"/>
+                                        <rect key="frame" x="0.0" y="371" width="283" height="82.5"/>
                                         <color key="backgroundColor" red="0.80000000000000004" green="0.015686274510000067" blue="0.62082127703967116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <state key="normal" title="Top Tab"/>
@@ -900,7 +899,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dMQ-xF-RwV" userLabel="Bottom Tab">
-                                        <rect key="frame" x="0.0" y="360" width="283" height="62"/>
+                                        <rect key="frame" x="0.0" y="463.5" width="283" height="83"/>
                                         <color key="backgroundColor" red="0.80000000000000004" green="0.015686274510000001" blue="0.620821277" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <state key="normal" title="Bottom Tab"/>
@@ -914,7 +913,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CDi-Gu-bE2" userLabel="Centered">
-                                        <rect key="frame" x="0.0" y="432" width="283" height="62"/>
+                                        <rect key="frame" x="0.0" y="556.5" width="283" height="82.5"/>
                                         <color key="backgroundColor" red="1" green="0.46653546191345963" blue="0.015686274510000042" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <state key="normal" title="Centered"/>
@@ -950,7 +949,7 @@
                     <tabBarItem key="tabBarItem" title="Item" id="lRD-YW-2WT"/>
                     <value key="contentSizeForViewInPopover" type="size" width="0.0" height="250"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="eD6-og-rzJ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -966,7 +965,7 @@
             <objects>
                 <tableViewController id="CCQ-og-YsG" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="veg-5v-Pex">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <sections>
@@ -1062,11 +1061,11 @@
                         <viewControllerLayoutGuide type="bottom" id="SPH-4M-bE7"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="0Cn-7n-ODp">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nothing to see here." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2bv-DK-h4b">
-                                <rect key="frame" x="109.5" y="345" width="156" height="21"/>
+                                <rect key="frame" x="109.5" y="421.5" width="156" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1089,7 +1088,7 @@
                 <navigationController id="UrZ-Dq-bGZ" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="iconSwiftMessages" id="Ttu-oX-nwD"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="vE6-lq-HY6">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -1105,7 +1104,7 @@
         <image name="iconSwiftMessages" width="38" height="31"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="h5n-Vv-Q3y"/>
-        <segue reference="EaG-Ea-U3j"/>
+        <segue reference="1PO-Ol-L8M"/>
+        <segue reference="TBl-s0-9vL"/>
     </inferredMetricsTieBreakers>
 </document>

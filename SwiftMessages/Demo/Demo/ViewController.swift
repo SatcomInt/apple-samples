@@ -18,7 +18,6 @@ class ViewController: UITableViewController {
         .explore,
         .titleBody(title: "CENTERED", body: "Show cenetered messages with a fun, physics-based dismissal gesture.", function: ViewController.demoCentered),
         .viewController,
-        //.counted,
     ]
 
     /*
