@@ -37,9 +37,9 @@
 		0CCA34891B050525006D9666 /* FormSectionDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCA34771B050525006D9666 /* FormSectionDescriptor.swift */; };
 		0CDBB4F11B10699A00BE6ACF /* FormStepperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDBB4F01B10699A00BE6ACF /* FormStepperCell.swift */; };
 		0CDBB4F31B10724600BE6ACF /* FormSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDBB4F21B10724600BE6ACF /* FormSliderCell.swift */; };
-		963B471041C57602BED7E7ED /* Pods_SwiftForms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 614AA047BEABA1BED0DFA640 /* Pods_SwiftForms.framework */; };
+		6AE25D95436EEAC77C2F6525 /* Pods_SwiftForms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C682F0BBE4801B7BB89057 /* Pods_SwiftForms.framework */; };
 		BDD1087A1C925D14000EDEE5 /* FormLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD108791C925D14000EDEE5 /* FormLabelCell.swift */; };
-		CFA6E28A75FF15DF585473C3 /* Pods_SwiftFormsApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2CEE6E2FD89A7BF459CC636 /* Pods_SwiftFormsApplication.framework */; };
+		FF8365D517FE2BF983537A3C /* Pods_SwiftFormsApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F94ED87518910E23429B9E24 /* Pods_SwiftFormsApplication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,13 +99,13 @@
 		0CCA34771B050525006D9666 /* FormSectionDescriptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormSectionDescriptor.swift; sourceTree = "<group>"; };
 		0CDBB4F01B10699A00BE6ACF /* FormStepperCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormStepperCell.swift; sourceTree = "<group>"; };
 		0CDBB4F21B10724600BE6ACF /* FormSliderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormSliderCell.swift; sourceTree = "<group>"; };
-		176DEF1B28BFC02080C063FA /* Pods-SwiftForms.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftForms.release.xcconfig"; path = "Target Support Files/Pods-SwiftForms/Pods-SwiftForms.release.xcconfig"; sourceTree = "<group>"; };
-		3BED3D0EB342E1B917F3D1E0 /* Pods-SwiftFormsApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftFormsApplication.debug.xcconfig"; path = "Target Support Files/Pods-SwiftFormsApplication/Pods-SwiftFormsApplication.debug.xcconfig"; sourceTree = "<group>"; };
-		3DB2460C041796288ABFC972 /* Pods-SwiftForms.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftForms.debug.xcconfig"; path = "Target Support Files/Pods-SwiftForms/Pods-SwiftForms.debug.xcconfig"; sourceTree = "<group>"; };
-		41DB31D2B2B44D7B8AD260F4 /* Pods-SwiftFormsApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftFormsApplication.release.xcconfig"; path = "Target Support Files/Pods-SwiftFormsApplication/Pods-SwiftFormsApplication.release.xcconfig"; sourceTree = "<group>"; };
-		614AA047BEABA1BED0DFA640 /* Pods_SwiftForms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftForms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		203AF50C67ABA120B33A05A3 /* Pods-SwiftFormsApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftFormsApplication.debug.xcconfig"; path = "Target Support Files/Pods-SwiftFormsApplication/Pods-SwiftFormsApplication.debug.xcconfig"; sourceTree = "<group>"; };
+		3C20B3D70A8B8C5A54F3B074 /* Pods-SwiftFormsApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftFormsApplication.release.xcconfig"; path = "Target Support Files/Pods-SwiftFormsApplication/Pods-SwiftFormsApplication.release.xcconfig"; sourceTree = "<group>"; };
+		58C682F0BBE4801B7BB89057 /* Pods_SwiftForms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftForms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		984815BA9DB789182CF305DC /* Pods-SwiftForms.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftForms.debug.xcconfig"; path = "Target Support Files/Pods-SwiftForms/Pods-SwiftForms.debug.xcconfig"; sourceTree = "<group>"; };
 		BDD108791C925D14000EDEE5 /* FormLabelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormLabelCell.swift; sourceTree = "<group>"; };
-		F2CEE6E2FD89A7BF459CC636 /* Pods_SwiftFormsApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftFormsApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77CF5641D2EC6A026A8B122 /* Pods-SwiftForms.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftForms.release.xcconfig"; path = "Target Support Files/Pods-SwiftForms/Pods-SwiftForms.release.xcconfig"; sourceTree = "<group>"; };
+		F94ED87518910E23429B9E24 /* Pods_SwiftFormsApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftFormsApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CCA34431B04FBE0006D9666 /* SwiftForms.framework in Frameworks */,
-				CFA6E28A75FF15DF585473C3 /* Pods_SwiftFormsApplication.framework in Frameworks */,
+				FF8365D517FE2BF983537A3C /* Pods_SwiftFormsApplication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,7 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				963B471041C57602BED7E7ED /* Pods_SwiftForms.framework in Frameworks */,
+				6AE25D95436EEAC77C2F6525 /* Pods_SwiftForms.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +136,7 @@
 				0CCA342D1B04FBE0006D9666 /* SwiftForms */,
 				0CCA33D81B04FA5A006D9666 /* Products */,
 				9783D362DCDC97EC2CDC77BF /* Pods */,
-				62BCC8BB9D9FA1B011A93C1B /* Frameworks */,
+				C28141FAB7A918EDA1C18AAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -242,24 +242,24 @@
 			path = descriptors;
 			sourceTree = "<group>";
 		};
-		62BCC8BB9D9FA1B011A93C1B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				614AA047BEABA1BED0DFA640 /* Pods_SwiftForms.framework */,
-				F2CEE6E2FD89A7BF459CC636 /* Pods_SwiftFormsApplication.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		9783D362DCDC97EC2CDC77BF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3DB2460C041796288ABFC972 /* Pods-SwiftForms.debug.xcconfig */,
-				176DEF1B28BFC02080C063FA /* Pods-SwiftForms.release.xcconfig */,
-				3BED3D0EB342E1B917F3D1E0 /* Pods-SwiftFormsApplication.debug.xcconfig */,
-				41DB31D2B2B44D7B8AD260F4 /* Pods-SwiftFormsApplication.release.xcconfig */,
+				984815BA9DB789182CF305DC /* Pods-SwiftForms.debug.xcconfig */,
+				E77CF5641D2EC6A026A8B122 /* Pods-SwiftForms.release.xcconfig */,
+				203AF50C67ABA120B33A05A3 /* Pods-SwiftFormsApplication.debug.xcconfig */,
+				3C20B3D70A8B8C5A54F3B074 /* Pods-SwiftFormsApplication.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		C28141FAB7A918EDA1C18AAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58C682F0BBE4801B7BB89057 /* Pods_SwiftForms.framework */,
+				F94ED87518910E23429B9E24 /* Pods_SwiftFormsApplication.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,12 +280,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CCA33F61B04FA5A006D9666 /* Build configuration list for PBXNativeTarget "SwiftFormsApplication" */;
 			buildPhases = (
-				4AF97C02B746124962C5E797 /* [CP] Check Pods Manifest.lock */,
+				30EFE22B1A4AB26CC8BED6CD /* [CP] Check Pods Manifest.lock */,
 				0CCA33D31B04FA5A006D9666 /* Sources */,
 				0CCA33D41B04FA5A006D9666 /* Frameworks */,
 				0CCA33D51B04FA5A006D9666 /* Resources */,
 				0CCA34481B04FBE0006D9666 /* Embed Frameworks */,
-				15C909BB0DC226877034B336 /* [CP] Embed Pods Frameworks */,
+				0DE84B0C441B80BA7B3AD133 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -301,7 +301,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CCA34451B04FBE0006D9666 /* Build configuration list for PBXNativeTarget "SwiftForms" */;
 			buildPhases = (
-				07F3AE8F7ECA8F9831A81CD8 /* [CP] Check Pods Manifest.lock */,
+				3A3C42DE82FE9369C212D7B1 /* [CP] Check Pods Manifest.lock */,
 				0CCA34271B04FBDF006D9666 /* Sources */,
 				0CCA34281B04FBDF006D9666 /* Frameworks */,
 				0CCA34291B04FBDF006D9666 /* Headers */,
@@ -381,29 +381,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		07F3AE8F7ECA8F9831A81CD8 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SwiftForms-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		15C909BB0DC226877034B336 /* [CP] Embed Pods Frameworks */ = {
+		0DE84B0C441B80BA7B3AD133 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -421,7 +399,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftFormsApplication/Pods-SwiftFormsApplication-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4AF97C02B746124962C5E797 /* [CP] Check Pods Manifest.lock */ = {
+		30EFE22B1A4AB26CC8BED6CD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -437,6 +415,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-SwiftFormsApplication-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A3C42DE82FE9369C212D7B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftForms-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -616,7 +616,7 @@
 		};
 		0CCA33F71B04FA5A006D9666 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BED3D0EB342E1B917F3D1E0 /* Pods-SwiftFormsApplication.debug.xcconfig */;
+			baseConfigurationReference = 203AF50C67ABA120B33A05A3 /* Pods-SwiftFormsApplication.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SCPSSSCWL9;
@@ -631,7 +631,7 @@
 		};
 		0CCA33F81B04FA5A006D9666 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41DB31D2B2B44D7B8AD260F4 /* Pods-SwiftFormsApplication.release.xcconfig */;
+			baseConfigurationReference = 3C20B3D70A8B8C5A54F3B074 /* Pods-SwiftFormsApplication.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SCPSSSCWL9;
@@ -646,7 +646,7 @@
 		};
 		0CCA34461B04FBE0006D9666 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DB2460C041796288ABFC972 /* Pods-SwiftForms.debug.xcconfig */;
+			baseConfigurationReference = 984815BA9DB789182CF305DC /* Pods-SwiftForms.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -679,7 +679,7 @@
 		};
 		0CCA34471B04FBE0006D9666 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 176DEF1B28BFC02080C063FA /* Pods-SwiftForms.release.xcconfig */;
+			baseConfigurationReference = E77CF5641D2EC6A026A8B122 /* Pods-SwiftForms.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
