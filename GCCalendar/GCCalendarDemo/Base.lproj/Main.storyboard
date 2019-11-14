@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="2Uu-Rh-32c">
+    <device id="ipad9_7" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Calendar View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="CalendarViewController" customModule="GCCalendarDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vIC-c2-jhN">
+                                <rect key="frame" x="0.0" y="112" width="768" height="912"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A2K-99-hgf" customClass="GCCalendarView" customModule="GCCalendar">
+                                <rect key="frame" x="0.0" y="50" width="768" height="60"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="ylm-sZ-RJE"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vIC-c2-jhN" firstAttribute="top" secondItem="A2K-99-hgf" secondAttribute="bottom" constant="2" id="0h2-fY-j9r"/>
+                            <constraint firstItem="A2K-99-hgf" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="31Y-fK-nK4"/>
+                            <constraint firstItem="vIC-c2-jhN" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottomMargin" id="EGc-x6-iEz"/>
+                            <constraint firstItem="A2K-99-hgf" firstAttribute="trailing" secondItem="vIC-c2-jhN" secondAttribute="trailing" id="TJl-cb-1z4"/>
+                            <constraint firstItem="A2K-99-hgf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YVn-6f-sHb"/>
+                            <constraint firstItem="A2K-99-hgf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="c3L-Bf-TEr"/>
+                            <constraint firstItem="A2K-99-hgf" firstAttribute="leading" secondItem="vIC-c2-jhN" secondAttribute="leading" id="jYX-wP-ARN"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="TNs-Dj-2YV"/>
+                    <connections>
+                        <outlet property="calendarHeight" destination="ylm-sZ-RJE" id="g0g-gh-TxN"/>
+                        <outlet property="calendarView" destination="A2K-99-hgf" id="mnw-it-ApL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2008.5937499999998" y="-428.90625"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="IHP-fX-n1o">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2Uu-Rh-32c" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Tqf-DA-xd5">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="lfn-Sc-W0x"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="07j-QV-sxl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1287" y="-428"/>
+        </scene>
+    </scenes>
+</document>
